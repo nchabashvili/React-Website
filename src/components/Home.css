@@ -1,14 +1,42 @@
-.home-container {
-    text-align: center;
-    margin-top: 20px;
+.welcomeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -260px;
+  width: 600px;
+  height: 100px;
 }
-  
-.home-image {
-    max-width: 100%;
+
+#home li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: -160px;
+  width: 300px;
+  height: 100px;
 }
+
+#home li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #cafafe;
+  transition: 0.1s ease-in-out;
+  position: absolute;
+  background: #282828;
+  padding: 10px 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  border-radius: 13px;
   
-.home-description {
-    margin-top: 20px;
 }
-  
-  
+
+#home li a:hover{
+    color: #6bf3ff;
+    background: #4d4d4d;
+}
+

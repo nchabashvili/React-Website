@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Leaderboard from './components/Leaderboard';
-import Rules from './components/Rules';
+import About from './components/About';
+import Login from './components/Login';
 import './App.css';
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
       <div>
         <NavBar/>
         <Routes>
-        <Route path="/" element={<Home />} />
-          <Route path="/leaderboard" element={<Leaderboard />} />
-          <Route path="/rules" element={<Rules />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Leaderboard" element={<Leaderboard />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </div>
     </Router>

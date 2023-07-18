@@ -1,27 +1,29 @@
+  .Leaderboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -260px;
+    width: 600px;
+    height: 100px;
+  }
 
-  
-  /* Leaderboard.css */
-  .leaderboard-container {
-    margin-top: 20px;
+  .Leaderboard table{
+    display: table;
+    border: black;
+    border-spacing: 2px;
+    margin-top: 30px;
+    margin-left: -70px;
   }
-  
-  .leaderboard-search {
-    margin-bottom: 20px;
-    color: #F79540;
+
+  .Leaderboard table tr th{
+    padding: 20px;
+    border: 1px solid black;
   }
-  
-  .leaderboard-table {
-    width: 100%;
-    border-collapse: collapse;
+
+  .Leaderboard table tr td{
+    padding: 20px;
+    border: 1px solid black;
+    width: 1000px;
   }
-  
-  .leaderboard-table th,
-  .leaderboard-table td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .leaderboard-table th {
-    background-color: #f2f2f2;
-  }
+
