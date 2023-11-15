@@ -41,6 +41,7 @@
     position: relative;
 }
 
+
 #navbar li i{
     padding-right: 10px;
 }
@@ -81,7 +82,6 @@
 
 @media screen and (max-width:850px){
     #navbar{
-        z-index: 99;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
